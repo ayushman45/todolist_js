@@ -1,7 +1,5 @@
 # To-Do List Web Application
 
-![To-Do List Screenshot](screenshot.png)
-
 ## Overview
 
 This is a simple web application that allows users to create and manage their to-do list. It was built using HTML, CSS, and JavaScript, and it covers various fundamental concepts in web development. The application includes features like adding, editing, and deleting to-do list items, and it uses JavaScript to dynamically update the list on the webpage.
