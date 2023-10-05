@@ -1,0 +1,109 @@
+body{
+    font-family: cursive;
+    background-color: saddlebrown;
+    min-width: 100vw;
+    min-height: 100vh;
+    padding-top: 5vh;
+    text-align: center;
+    color: #032630;
+    font-size: x-large;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+#add-box{
+    width: 75vw;
+    max-width: 600px;
+    margin-top: 5vh;
+    border-radius: 25px;
+    border: none;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+#add-box input{
+    font-size: x-large;
+    line-height: calc(50px);
+    width: 50vw;
+    max-width: 360px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 10px;
+    background-color: white;
+    text-align: center;
+}
+  
+  ::placeholder {
+    color:darkslategrey;
+    font-size: x-large;
+    padding-left: 10px;
+    font-family: cursive;
+    line-height: 5vh;
+  }
+
+#add-box button{
+    width: 20vw;
+    max-width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ff9a3c;
+    font-size: large;
+    font-weight: bold;
+    color: #032630;
+}
+
+.todo{
+    width: 75vw;
+    max-width: 600px;
+    margin-top: 5vh;
+    border-radius: 25px;
+    border: none;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.todo span{
+    font-size: x-large;
+    line-height: calc(50px);
+    width: 50vw;
+    max-width: 360px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    padding-left: 10px;
+    background-color: white;
+    text-align: center;
+    overflow-wrap: break-word;
+    color: #032630;
+}
+
+.todo button{
+    width: 20vw;
+    max-width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: #ff9a3c;
+    font-size: large;
+    font-weight: bold;
+    color: #032630;
+}
